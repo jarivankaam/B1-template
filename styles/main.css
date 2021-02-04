@@ -124,6 +124,16 @@ article h2.open-forever{
 .row{
   display:flex;
 }
+.emphasize{
+  border-left:5px #27AE60 solid;
+  box-shadow: #27AE60 1px 0px 5px;
+  padding: 1em;
+}
+.emphasize h2{
+  margin: 0;
+  border: 0px;
+  text-align: center;
+}
 
 .product{
   margin-right: 1em;
