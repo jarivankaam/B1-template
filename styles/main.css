@@ -178,7 +178,22 @@ button a{
 button:hover{
   cursor: pointer;
 }
+span{
+  font-weight: bold;
+}
 
+.text{
+  display:flex;
+  justify-content: flex-end;
+}
+.text button{
+  width: 450px;
+
+}
+
+.image{
+  display: flex;
+}
 .payment-option{
   height: 64px;
 }
