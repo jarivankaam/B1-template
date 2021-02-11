@@ -184,21 +184,18 @@ span{
 
 .productMok{
   display:flex;
+  flex-wrap: wrap;
   
 }
 
-.description1{
-  display:flex;
-  flex-flow: row wrap;
+.descreption1{
+ max-width: 400px;
+
+
 }
 button.button{
-  width: 450px;
+  width: 250px;
 
-}
-
-.image{
-  display: flex;
-  
 }
 .payment-option{
   height: 64px;
