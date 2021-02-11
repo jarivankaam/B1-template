@@ -171,6 +171,10 @@ button{
   color: #000000;
   font-weight: bold;
 }
+button a{
+  color:black;
+  text-decoration: none;
+}
 button:hover{
   cursor: pointer;
 }
@@ -180,6 +184,8 @@ button:hover{
 }
 
 .sidy-by-side{
+  display: flex;
+  justify-content: space-around;
 }
 
 .description{
